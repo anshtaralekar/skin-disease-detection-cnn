@@ -228,4 +228,5 @@ The trained model achieved approximately:
 * Ansh Taralekar
 
 Electronics & Telecommunication Engineering
-K. J. Somaiya Institute of Technology GitHub: https://github.com/anshtaralekar
+K. J. Somaiya Institute of Technology 
+GitHub: https://github.com/anshtaralekar
