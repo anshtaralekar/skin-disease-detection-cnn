@@ -15,6 +15,32 @@ The system is trained to identify four common skin conditions:
 
 The model analyzes skin lesion images and learns visual patterns such as texture, color variation, and lesion structure to perform accurate classification.
 
+## Disease Classes
+
+### Atopic Dermatitis
+
+![Atopic Dermatitis](images/atopic-dermatitis.jpg)
+
+*Figure 1: Sample image of Atopic Dermatitis.*
+
+### Eczema
+
+![Eczema](images/eczema.jpg)
+
+*Figure 2: Sample image of Eczema.*
+
+### Melanoma
+
+![Melanoma](images/melanoma.webp)
+
+*Figure 3: Sample image of Melanoma.*
+
+### Ringworm
+
+![Ringworm](images/ringworm.webp)
+
+*Figure 4: Sample image of Ringworm.*
+
 ## Objectives
 
 - Develop a CNN-based image classification model.
@@ -27,7 +53,7 @@ The model analyzes skin lesion images and learns visual patterns such as texture
 
 ![System Architecture](images/system-architecture.png)
 
-*Figure 1: CNN-based Skin Disease Detection Pipeline.*
+*Figure 5: CNN-based Skin Disease Detection Pipeline.*
 
 ## Workflow
 
@@ -48,7 +74,7 @@ The dataset consists of skin disease images categorized into:
 - Melanoma
 - Ringworm
 
-Dataset Characteristics:
+### Dataset Characteristics:
 
 - Approximately 120 images
 - RGB Images
@@ -104,7 +130,7 @@ The model consists of four convolutional blocks:
 
 ## Model Training
 
-Training Configuration:
+### Training Configuration:
 
 - Framework: TensorFlow / Keras
 - Optimizer: Adam
@@ -122,6 +148,20 @@ Training Configuration:
 - OpenCV
 - VS Code
 
+## Source Code
+
+### Training Script
+
+[Training Code](code/train.py)
+
+### Prediction Script
+
+[Prediction Code](code/predict.py)
+
+### Dataset
+
+[View Dataset](dataset/)
+
 ## Results
 
 The trained model achieved approximately:
@@ -130,11 +170,35 @@ The trained model achieved approximately:
 - Multi-Class Classification
 - Reliable Disease Prediction
 
-### Sample Results
+### Atopic Dermatitis Prediction
 
-![Results](results/prediction-results.png)
+![Atopic Dermatitis Result](results/atopic-dermatitis-result.png)
 
-*Figure 2: Sample Prediction Output.*
+*Figure 6: CNN correctly classified Atopic Dermatitis.*
+
+### Eczema Prediction
+
+![Eczema Result](results/eczema-result.png)
+
+*Figure 7: CNN correctly classified Eczema.*
+
+### Melanoma Prediction
+
+![Melanoma Result](results/melanoma-result.png)
+
+*Figure 8: CNN correctly classified Melanoma.*
+
+### Ringworm Prediction
+
+![Ringworm Result](results/ringworm-result.png)
+
+*Figure 9: CNN correctly classified Ringworm.*
+
+### Model Performance
+
+![Accuracy Graph](results/accuracy-graph.png)
+
+*Figure 10: Training and validation accuracy during CNN training.*
 
 ## Applications
 
@@ -157,18 +221,11 @@ The trained model achieved approximately:
 
 ## Documentation
 
-Full project report available in:
-
-docs/skin-disease-detection-report.pdf
+[View Project Report](docs/ai-project-report.pdf)
 
 ## Author
 
 Ansh Taralekar
 
-## Academic Information
-
-Machine Learning Minor Project
-
 K. J. Somaiya Institute of Technology
-
 Department of Electronics & Telecommunication Engineering
