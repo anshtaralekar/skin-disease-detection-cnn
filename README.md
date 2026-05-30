@@ -225,6 +225,7 @@ The trained model achieved approximately:
 
 ## Author
 
-- Ansh Taralekar
-Electronics & Telecommunication Engineering K. J. Somaiya Institute of Technology
-GitHub: https://github.com/anshtaralekar
+* Ansh Taralekar
+
+Electronics & Telecommunication Engineering
+K. J. Somaiya Institute of Technology GitHub: https://github.com/anshtaralekar
